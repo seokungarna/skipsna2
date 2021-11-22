@@ -1,0 +1,180 @@
+.flex-container a:active {
+	
+}
+.flexslider a:active {
+	
+}
+.flex-container a:focus {
+	
+}
+.flexslider a:focus {
+	
+}
+.slides {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.flex-control-nav {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.flex-direction-nav {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.flexslider {
+	margin: 0px; padding: 0px;
+}
+.flexslider .slides img {
+	width: 100%; display: block;
+}
+.flex-pauseplay span {
+	text-transform: capitalize;
+}
+.slides::after {
+	height: 0px; line-height: 0; clear: both; display: block; visibility: hidden; content: ".";
+}
+html[xmlns] .slides {
+	display: block;
+}
+* html .slides {
+	height: 1%;
+}
+.no-js .slides > li:first-child {
+	display: block;
+}
+.flexslider {
+	background: rgb(255, 255, 255); margin: 0px 0px 60px; border-radius: 4px; border: 4px solid rgb(255, 255, 255); border-image: none; position: relative; -ms-zoom: 1; box-shadow: 0px 1px 4px rgba(0,0,0,0.2); -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .2); -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .2); -o-border-radius: 4px; -o-box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+}
+.flex-viewport {
+	transition:1s; max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease;
+}
+.loading .flex-viewport {
+	max-height: 300px;
+}
+.flexslider .slides {
+	-ms-zoom: 1;
+}
+.carousel li {
+	margin-right: 5px;
+}
+.flex-direction-nav {
+	
+}
+.flex-direction-nav a {
+	background: url("bg_direction_nav.png") no-repeat 0px 0px; margin: -20px 0px 0px; top: 50%; width: 30px; height: 30px; text-indent: -9999px; display: block; position: absolute; z-index: 10; cursor: pointer; opacity: 0; -webkit-transition: all .3s ease;
+}
+.flex-direction-nav .flex-next {
+	background-position: 100% 0px; right: -36px;
+}
+.flex-direction-nav .flex-prev {
+	left: -36px;
+}
+.flexslider:hover .flex-next {
+	right: 5px; opacity: 0.8;
+}
+.flexslider:hover .flex-prev {
+	left: 5px; opacity: 0.8;
+}
+.flexslider:hover .flex-next:hover {
+	opacity: 1;
+}
+.flexslider:hover .flex-prev:hover {
+	opacity: 1;
+}
+.flex-direction-nav .flex-disabled {
+	cursor: default; pointer-events: none;
+}
+.flex-control-nav {
+	width: 100%; text-align: center; bottom: -40px; position: absolute;
+}
+.flex-control-nav li {
+	margin: 0px 6px; display: inline-block; -ms-zoom: 1;
+}
+.flex-control-paging li a {
+	background: rgba(0, 0, 0, 0.5); border-radius: 20px; width: 11px; height: 11px; text-indent: -9999px; display: block; cursor: pointer; box-shadow: inset 0px 0px 3px rgba(0,0,0,0.3); -moz-border-radius: 20px; -webkit-border-radius: 20px; -o-border-radius: 20px;
+}
+.flex-control-paging li a:hover {
+	background: rgba(0, 0, 0, 0.7);
+}
+.flex-control-paging li a.flex-active {
+	background: rgba(0, 0, 0, 0.9); cursor: default;
+}
+.flex-control-thumbs {
+	margin: 5px 0px 0px; overflow: hidden; position: static;
+}
+.flex-control-thumbs li {
+	
+}
+.flex-control-thumbs img {
+	margin: 10px 5px 0px; display: inline-block; cursor: pointer; opacity: 0.7;
+}
+.flex-control-thumbs img:hover {
+	opacity: 1;
+}
+.flex-control-thumbs .flex-active {
+	cursor: default; opacity: 1;
+}
+@media screen and (max-width:860px)
+{
+.flex-direction-nav .flex-prev {
+	left: 0px; opacity: 1;
+}
+.flex-direction-nav .flex-next {
+	right: 0px; opacity: 1;
+}
+}
+.metaslider .flexslider {
+	background: none; margin: 0px 0px 40px; border: 0px currentColor; border-image: none; max-height: none; max-width: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none;
+}
+.flex-control-nav {
+	bottom: -30px; line-height: 11px;
+}
+.flex-control-nav li {
+	margin: 0px;
+}
+.flex-control-nav li a {
+	margin: 0px 6px; padding: 0px;
+}
+.flexslider .slides li {
+	height: auto; position: relative;
+}
+.flex-viewport {
+	direction: ltr;
+}
+.flex-direction-nav a {
+	transition:0.3s; -moz-transition: all .3s ease;
+}
+.flexslider .slides p {
+	margin: 0px;
+}
+.flex-control-nav {
+	margin: auto;
+}
+.metaslider .filmstrip.flexslider {
+	margin-top: 10px;
+}
+.metaslider .filmstrip.flexslider .slides li {
+	cursor: pointer; opacity: 0.5;
+}
+.metaslider .filmstrip.flexslider .slides li.flex-active-slide {
+	opacity: 1 !important;
+}
+.metaslider .filmstrip.flexslider .slides li:hover {
+	opacity: 1 !important;
+}
+.metaslider .filmstrip.flexslider .slides li:focus {
+	opacity: 1 !important;
+}
+.metaslider .flex-control-thumbs li {
+	width: auto;
+}
+.metaslider ol.flex-control-thumbs img {
+	margin: 10px 5px 0px; width: auto;
+}
+#content .metaslider ol.flex-control-thumbs img {
+	margin: 10px 5px 0px; width: auto;
+}
+.nav-hidden.metaslider .flexslider {
+	margin-bottom: 0px;
+}
+.add-margin.nav-hidden.metaslider .flexslider {
+	margin-bottom: 40px;
+}

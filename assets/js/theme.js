@@ -1,4 +1,8 @@
 (function($){
+<<<<<<< HEAD
+=======
+	
+>>>>>>> c605346454780ddd960bf9a696bcd53cc5126fdb
 	/**
 	 * Helper class for frontend theme logic.
 	 * 
@@ -272,7 +276,10 @@
 		 */
 		_navItemClickMobile: function(e)
 		{
+<<<<<<< HEAD
 			console.log('click me mobile')
+=======
+>>>>>>> c605346454780ddd960bf9a696bcd53cc5126fdb
 			var parent 		= $(this).parent();		
 
 			if(!parent.hasClass('fl-mobile-sub-menu-open')) {
@@ -291,7 +298,10 @@
 		 */
 		_setupCurrentNavItem: function(e)
 		{	
+<<<<<<< HEAD
 			console.log('test')
+=======
+>>>>>>> c605346454780ddd960bf9a696bcd53cc5126fdb
 			var nav 		= $('.fl-page-nav .navbar-nav'),
 				targetId 	= typeof e !== 'undefined' ? $(e.target).attr('href') : window.location.hash,
 				currentLink = nav.find('a[href="'+ targetId +'"]');
@@ -400,7 +410,10 @@
 		 */
 		_navSubMenuToggleClick: function( e )
 		{
+<<<<<<< HEAD
 			console.log('mkay')
+=======
+>>>>>>> c605346454780ddd960bf9a696bcd53cc5126fdb
 			var li = $( this ).closest( 'li' ).eq( 0 );
 			
 			if ( ! li.hasClass( 'fl-sub-menu-open' ) ) {

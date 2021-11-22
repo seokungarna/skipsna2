@@ -1,0 +1,120 @@
+.metaslider .msHtmlOverlay .animation_in {
+	width: 100%; height: 100%;
+}
+.metaslider .msHtmlOverlay .animation_out {
+	width: 100%; height: 100%;
+}
+.metaslider .msHtmlOverlay .layer .content {
+	background: none; margin: 0px; padding: 0px; border: currentColor; border-image: none; width: auto; overflow: hidden;
+}
+.metaslider .msStaticOverlay .layer {
+	z-index: 99;
+}
+.metaslider .msHtmlOverlay .layer * {
+	margin: 0px; padding: 0px; line-height: 1.4em; font-size: 1em;
+}
+.metaslider .ms-layer {
+	overflow: hidden;
+}
+.metaslider .msHtmlOverlay .layer img {
+	height: auto !important; max-width: 100%;
+}
+.metaslider .msHtmlOverlay .layer .st-buttons {
+	margin: auto; padding: inherit; line-height: inherit; font-size: inherit;
+}
+.metaslider .msHtmlOverlay .layer .st-buttons a {
+	margin: auto; padding: inherit; line-height: inherit; font-size: inherit;
+}
+.metaslider .msHtmlOverlay .layer .widescreen.fluid.youtube_sc {
+	padding-bottom: 56.25%;
+}
+.metaslider .msHtmlOverlay .layer .fourthree.fluid.youtube_sc {
+	padding-bottom: 75%;
+}
+.metaslider-flex .msHtmlOverlay {
+	overflow: hidden;
+}
+.metaslider iframe.vimeo {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.metaslider .youtube iframe {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.effect0 {
+	z-index: 1; box-shadow: 0px 0px 4px 1px #ccc; -moz-box-shadow: 0 0 4px 1px #ccc; -webkit-box-shadow: 0 0 4px 1px #ccc;
+}
+.effect1 {
+	z-index: 1; box-shadow: 0px 10px 6px -6px #777; -moz-box-shadow: 0 10px 6px -6px #777; -webkit-box-shadow: 0 10px 6px -6px #777;
+}
+.effect2 {
+	z-index: 1;
+}
+.effect2 .flexslider {
+	background: white;
+}
+.effect2 .rslides {
+	background: white;
+}
+.effect2::before {
+	background: rgb(119, 119, 119); left: 10px; top: 80%; width: 50%; bottom: 15px; position: absolute; z-index: -1; max-width: 300px; content: ""; box-shadow: 0px 15px 10px #777; transform: rotate(-3deg); -webkit-transform: rotate(-3deg); -moz-box-shadow: 0 15px 10px #777; -webkit-box-shadow: 0 15px 10px #777; -o-transform: rotate(-3deg); -moz-transform: rotate(-3deg);
+}
+.effect2::after {
+	background: rgb(119, 119, 119); left: 10px; top: 80%; width: 50%; bottom: 15px; position: absolute; z-index: -1; max-width: 300px; content: ""; box-shadow: 0px 15px 10px #777; transform: rotate(-3deg); -webkit-transform: rotate(-3deg); -moz-box-shadow: 0 15px 10px #777; -webkit-box-shadow: 0 15px 10px #777; -o-transform: rotate(-3deg); -moz-transform: rotate(-3deg);
+}
+.effect2::after {
+	left: auto; right: 10px; transform: rotate(3deg); -webkit-transform: rotate(3deg); -o-transform: rotate(3deg); -moz-transform: rotate(3deg);
+}
+.effect3 {
+	background: white; position: relative; z-index: 1; box-shadow: 0px 1px 4px rgba(0,0,0,0.3), inset 0px 0px 40px rgba(0,0,0,0.1); -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect3 .flexslider {
+	background: white;
+}
+.effect3 .rslides {
+	background: white;
+}
+.effect3::before {
+	border-radius: 100px / 10px; left: 10px; top: 50%; right: 10px; bottom: 0px; position: absolute; z-index: -1; content: ""; box-shadow: 0px 0px 20px rgba(0,0,0,0.8); -moz-border-radius: 100px /10px; -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+.effect3::after {
+	border-radius: 100px / 10px; left: 10px; top: 50%; right: 10px; bottom: 0px; position: absolute; z-index: -1; content: ""; box-shadow: 0px 0px 20px rgba(0,0,0,0.8); -moz-border-radius: 100px /10px; -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+.effect3::after {
+	left: auto; right: 10px; transform: skew(8deg) rotate(3deg); -webkit-transform: skew(8deg) rotate(3deg); -o-transform: skew(8deg) rotate(3deg); -moz-transform: skew(8deg) rotate(3deg);
+}
+.effect4 {
+	position: relative; z-index: 1; box-shadow: 0px 1px 4px rgba(0,0,0,0.3), inset 0px 0px 40px rgba(0,0,0,0.1); -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect4 .flexslider {
+	background: white;
+}
+.effect4 .rslides {
+	background: white;
+}
+.effect4::before {
+	border-radius: 100px / 10px; left: 10px; top: 0px; right: 10px; bottom: 0px; position: absolute; z-index: -1; content: ""; box-shadow: 0px 0px 20px rgba(0,0,0,0.8); -moz-border-radius: 100px /10px; -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+.effect4::after {
+	border-radius: 100px / 10px; left: 10px; top: 0px; right: 10px; bottom: 0px; position: absolute; z-index: -1; content: ""; box-shadow: 0px 0px 20px rgba(0,0,0,0.8); -moz-border-radius: 100px /10px; -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+.effect4::after {
+	left: auto; right: 10px; transform: skew(8deg) rotate(3deg); -webkit-transform: skew(8deg) rotate(3deg); -o-transform: skew(8deg) rotate(3deg); -moz-transform: skew(8deg) rotate(3deg);
+}
+.effect5 {
+	position: relative; z-index: 1; box-shadow: 0px 1px 4px rgba(0,0,0,0.3), inset 0px 0px 40px rgba(0,0,0,0.1); -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect5 .flexslider {
+	background: white;
+}
+.effect5 .rslides {
+	background: white;
+}
+.effect5::before {
+	border-radius: 100px / 10px; left: 0px; top: 10px; right: 0px; bottom: 10px; position: absolute; z-index: -1; content: ""; box-shadow: 0px 0px 20px rgba(0,0,0,0.8); -moz-border-radius: 100px /10px; -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+.effect5::after {
+	border-radius: 100px / 10px; left: 0px; top: 10px; right: 0px; bottom: 10px; position: absolute; z-index: -1; content: ""; box-shadow: 0px 0px 20px rgba(0,0,0,0.8); -moz-border-radius: 100px /10px; -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+.effect5::after {
+	left: auto; right: 10px; transform: skew(8deg) rotate(3deg); -webkit-transform: skew(8deg) rotate(3deg); -o-transform: skew(8deg) rotate(3deg); -moz-transform: skew(8deg) rotate(3deg);
+}
