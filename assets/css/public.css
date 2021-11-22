@@ -1,0 +1,129 @@
+.metaslider {
+	position: relative; z-index: 0;
+}
+.metaslider .caption {
+	padding: 5px 10px; -ms-word-wrap: break-word;
+}
+.metaslider .caption-wrap {
+	background: black; margin: 0px; left: 0px; width: 100%; bottom: 0px; color: white; line-height: 1.4em; display: block; position: absolute; opacity: 0.7;
+}
+.metaslider img {
+	margin: 0px; padding: 0px; height: auto; -moz-user-select: none;
+}
+.metaslider a {
+	
+}
+.metaslider .theme-default .nivoSlider {
+	box-shadow: 0px 0px 0px; -moz-box-shadow: 0 0 0; -webkit-box-shadow: 0 0 0;
+}
+.ms-left.metaslider {
+	margin: 0px 20px 20px 0px; float: left;
+}
+.ms-right.metaslider {
+	margin: 0px 0px 20px 20px; float: right;
+}
+.metaslider li::before {
+	margin: 0px !important; bottom: auto !important; display: none !important; content: "" !important;
+}
+.metaslider li::after {
+	margin: 0px !important; bottom: auto !important; display: none !important; content: "" !important;
+}
+.metaslider .caption-wrap .caption img {
+	width: auto;
+}
+.article .metaslider ul {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.article .metaslider ol {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.article .metaslider li {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.article .metaslider img {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.art-article .metaslider ul {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.art-article .metaslider ol {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.art-article .metaslider li {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.art-article .metaslider img {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+#widgets .metaslider ul {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+#widgets .metaslider ol {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+#widgets .metaslider li {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+#widgets .metaslider img {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.entry .metaslider ul {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.entry .metaslider ol {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.entry .metaslider li {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.entry .metaslider img {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+#content .metaslider ul {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+#content .metaslider ol {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+#content .metaslider li {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+#content .metaslider img {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.entry-content .metaslider ul {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.entry-content .metaslider ol {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.entry-content .metaslider li {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.entry-content .metaslider img {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.metaslider .flexslider ul {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.metaslider .flexslider .slides li {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.metaslider .flexslider .slides ul {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.metaslider .flexslider .slides ol {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.metaslider .flexslider .flex-direction-nav {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.metaslider .flexslider .flex-direction-nav li {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+*[class*='-article'] .metaslider img {
+	list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: normal; max-height: none; max-width: none;
+}
+.metaslider .slides img {
+	width: 100%; display: block;
+}

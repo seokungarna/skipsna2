@@ -1,0 +1,51 @@
+@media screen and (max-width:500px)
+{
+#start-text-mobile h1 span span {
+	line-height: 50px !important; font-size: 42px !important;
+}
+}
+@media screen and (min-width:993px)
+{
+header.fl-page-header .container.fl-page-header-container {
+	padding-top: 20px !important; padding-bottom: 20px !important;
+}
+header.fl-page-header .container.fl-page-header-container .fl-logo-img {
+	
+}
+}
+a.fl-button {
+	border: 0px currentColor !important; border-image: none !important;
+}
+#tablepress-1 tr.even.row-2 td:first-of-type {
+	font-style: normal;
+}
+#tablepress-1 tr.even.row-2 td {
+	font-style: italic; font-weight: 600;
+}
+#tablepress-1 tr td:first-of-type {
+	font-weight: 600;
+}
+#oversikt .fl-row-content-wrap {
+	padding: 0px 20px 20px;
+}
+#prisma_rapid_sport {
+	padding-bottom: 20px;
+}
+@media screen and (min-width:640px)
+{
+.article {
+	max-height: 12em;
+}
+}
+.article + [data-readmore-toggle] {
+	font-weight: 700; text-decoration: underline;
+}
+.tablepress .even td {
+	background-color: rgb(249, 249, 249);
+}
+.tablepress .odd td {
+	background-color: rgb(255, 255, 255);
+}
+.tablepress .row-hover tr:first-of-type:hover td {
+	background-color: rgb(255, 255, 255) !important;
+}
