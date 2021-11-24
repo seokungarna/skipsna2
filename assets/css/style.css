@@ -49,3 +49,55 @@ a.fl-button {
 .tablepress .row-hover tr:first-of-type:hover td {
 	background-color: rgb(255, 255, 255) !important;
 }
+
+/* navbar by jk */
+
+#jk-navtop {
+background-color: #177c19;
+border-color: #177c19;
+
+}
+#jk-nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo-jk {
+
+}
+.navbar-inverse .navbar-nav > .open > a:focus {
+	background-color: #177c19 !important;
+
+
+}
+
+.navbar-inverse .navbar-nav > .open > a {
+	background-color: #177c19 !important;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+
+	background-color: #177c19 !important;
+}
+.navbar-inverse .navbar-toggle:focus {
+	background-color: #21b424;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #21b424;
+}
+
+}
+@media screen and (min-width:1100px)
+{
+	#jk-nav {
+		
+    padding-left: 0;
+    padding-right: 0;
+    width: 1020px;
+	}
+
+
+
+}
